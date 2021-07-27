@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: teal;
+}
+.timer-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    height: 70vh;
+    border-radius: 10px;
+    background-color: #141814;
+    margin: 100px 700px;
+}
+.btn-play {
+    width: 4vw;
+    height: 4vw;
+    font-size: 30px;
+    border-radius: 50%;
+    margin:30px;
+    background-color: #34f855;
+}
+.btn-second {
+    width: 3vw;
+    height: 3vw;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #48f1c7;
+    border: none;
+    border-radius:50%;
+}
+.btn-minute {
+    width: 3vw;
+    height: 3vw;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #2fff7f;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(71, 71, 71);
+
+}
+.btn-number {
+    margin: 0;
+}
+.wave-block {
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+}
+.wave-block .wave {
+    background:url(./wave.svg);
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.fa-pause {
+    display: none;
+}
+#countdown {
+    padding: 50px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="timer-block">
+    <h2 style="color: #73f399;">Countdown timer</h2>
+    <div>
+        <p style="color:#fff; font-size:40px" id="countdown">03:00</p>
+    </div>
+    <div>
+        <button class="btn-second" data-second="-30">-30s</button>
+        <button class="btn-play">
+            <i class="fas fa-play"></i>
+            <i class="fas fa-pause"></i>
+            
+        </button>
+        <button class="btn-second " data-second="+30">+30s</button>
+    </div>
+    <div class="wave-block">
+        <div class="wave wave-one"></div>
+        <div class="wave wave-two"></div>
+    </div>
+    <div>
+        <button class="btn-minute" data-minute="3">3min</button>
+        <button class="btn-minute" data-minute="5">5min</button>
+        <button class="btn-minute" data-minute="7">7min</button>
+        <button class="btn-minute" data-minute="10">10min</button>
+    </div>
+</div>
+    <script src="./index.js"></script>
+</body>
+</html>
